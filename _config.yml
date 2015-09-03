@@ -1,8 +1,8 @@
 #--------------------------------------------------------------------------------
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
-workshop_repo   : "https://github.com/Reproducible-Science-Curriculum/2015-05-14-reproducible-science-duke/"
-workshop_site   : "http://reproducible-science-curriculum.github.io/2015-05-14-reproducible-science-duke/"
+workshop_repo   : "https://github.com/Reproducible-Science-Curriculum/2015-09-24-reproducible-science-duml/"
+workshop_site   : "http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/"
 #--------------------------------------------------------------------------------
 # Standard Software Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------

@@ -2,20 +2,20 @@
 layout: workshop
 root: .
 workshop: Reproducible Science Workshop - Tools, Resources, and Practices
-venue: iDigBio, 105 building, teaching room (3rd floor)
-address: NW 16th St
+venue: Duke Marine Lab, Auditorium
+address: 135 Duke Marine Lab Rd, Beaufort, NC 28516
 country: United-States
 language: en
-latlng: 29.652971,-82.343220
-humandate: June 1-2, 2015
+latlng: 34.7169124,-76.6721571
+humandate: September 24-25, 2015
 humantime: 9:00 am - 5:00 pm
-startdate: 2015-06-01
-enddate: 2015-06-01
-instructor: ["Hilmar Lapp (Duke, <a href='http://genome.duke.edu' target='_blank'>GCB</a>)", "Ciera Martinez (University of California Davis, <a href='http://pbi.ucdavis.edu' target='_blank'>Plant Biology Graduate Group</a>)", "François Michonneau (University of Florida, <a href='http://idigbio.org' target='_blank'>iDigBio</a>)"]
-helper: ["Judit Ungvári-Martin", "Deb Paul", "Kevin Love"]
-contact: francois.michonneau@gmail.com
-etherpad: https://etherpad.mozilla.org/GwwIWXAo95
-eventbrite: #16699120519
+startdate: 2015-09-24
+enddate: 2015-09-25
+instructor: ["Mine Çetinkaya-Rundel (Duke, <a href='https://stat.duke.edu/'
+target='_blank'>Dept. of Statistical Science</a>)", "Karen Cranston (Duke, <a href='http://opentreeoflife.org' target='_blank'>Open Tree of Life</a>)", "Hilmar Lapp (Duke, <a href='http://genome.duke.edu' target='_blank'>GCB</a>)", "Dan Leehr (Duke, <a href='http://genome.duke.edu' target='_blank'>GCB</a>)"]
+contact: hilmar.lapp@duke.edu
+etherpad: 
+eventbrite: 
 ---
 <!--
   HEADER
@@ -43,25 +43,6 @@ eventbrite: #16699120519
 </iframe>
 {% endif %}
 
-<h2>Registration</h2>
-
-Registration is now closed!
-
-<!--
-<p>Fill out the form below to register for the workshop. Please scroll down on the
-form to click on the "Submit" button.</p>
-
-<p>Participation to the workshop is free but, unfortunately, we cannot provide
-travel funds.</p>
-
-<p>Remote participation (using Adobe Connect, free to use) is possible. Please
-indicate that you will participate remotely in the last question of the
-registration form.</p>
-
-<iframe src="https://docs.google.com/forms/d/1kCafq3UY03LuVTZ8HIheMbqJbszjw4enT8oXZQXUGxg/viewform?embedded=true" width="900" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
--->
-
 <h2 id="info">General Information</h2>
 
 <!--
@@ -80,11 +61,11 @@ registration form.</p>
   today to make one's computational science more reproducible.
 </p>
 <p>
-  The course is co-run by <a href="http://idigbio.org/" target="_blank">iDigBio</a>, and is the result of
+  The course and the curriculum were developed by the participants of
   the <a href="https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014">Reproducible
-  Science Curriculum Hackathon</a> that was held December 8-11, 2014, at the
+  Science Curriculum Hackathon</a> held at the
   National Evolutionary Synthesis Center (<a href="nescent.org">NESCent</a>) in
-  Durham. The hackathon and instructor travel have been supported by the National
+  December 2014. The hackathon and instructor travel are supported by the National
   Science Foundation (NSF).
 </p>
 
@@ -176,6 +157,7 @@ subsequently are prevented from taking your seat.
       <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
       <tr> <td>13:30</td>  <td>Organizing your project to facilitate Reproducible Research</td> </tr>
       <tr> <td>15:00</td>  <td>Coffee/Tea break</td> </tr>
+      <tr> <td>15:30</td>  <td>Literate programming</td> </tr>
       <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
@@ -243,11 +225,11 @@ subsequently are prevented from taking your seat.
       <li>Identify pain points in getting your analysis to be reproducible.</li>
       <li>The role of documentation, sharing, automation, and organization in making your research more reproducible.</li>
       <li>Introducing some tools to solve these problems, specifically R/RStudio/RMarkdown.</li>
-      <li>Slides:
+      <!-- <li>Slides:
        <ul>
        <li><a href="intro-slides/intro-01-slides.html">Intro I slides</a></li>
        <li><a href="intro-slides/intro-02-slides.html">Intro II slides</a></li>
-       </ul></li>
+       </ul></li> -->
     </ul>
   </div>
   <div class="col-md-6">
@@ -256,12 +238,22 @@ subsequently are prevented from taking your seat.
       <li>Organize projects and folders to enable reproducibility and reusability</li>
       <li>Understand the structure of data files and the importance of documenting all changes made</li>
       <li>Using these practices, create a reproducible project workflow using knitr in RStudio.</li>
-      <li>Slides:
+      <!-- <li>Slides:
       <ul>
         <li><a href="organization-slides/">File organization</a></li>
         <li><a href="naming-slides/">File naming</a></li>
+      </ul></li> -->
+    </ul>
+    <h3>Literate programming</h3>
+    <ul>
+      <li>Understand the value of having question, source code, and
+  result side by side</li>
+      <li>Use literate programming to create executable documentation</li>
+      <li>Create self-documenting data cleaning and quality control reports</li>
+      <!-- <li>Slides:
+      <ul>
         <li><a href="lit-prog-slides/">Literate programming</a></li>
-      </ul></li>
+      </ul></li> -->
     </ul>
   </div>
 </div>
@@ -273,7 +265,7 @@ subsequently are prevented from taking your seat.
      <ul>
       <li>Exposure to the motivations of using version control.</li>
       <li>Learn the basics of Git via Git and Github.</li>
-      <li><a href="vcs-slides/01-motivation-slides.html">Slides</a></li>
+      <!-- <li><a href="vcs-slides/01-motivation-slides.html">Slides</a></li> -->
      </ul>
   </div>
   <div class="col-md-4">
@@ -291,7 +283,7 @@ subsequently are prevented from taking your seat.
       <li>Ensuring your workflow is permanently archived and citable</li>
       <li>Documentation and metadata for reusability</li>
       <li>Choosing licenses for software and data</li>
-      <li><a href="slides/01-publication-slides.html">Slides</a>
+      <!-- <li><a href="slides/01-publication-slides.html">Slides</a> -->
     </ul>
   </div>
 </div>
@@ -299,7 +291,7 @@ subsequently are prevented from taking your seat.
 
 <hr/>
 
-<!--- materials -- zip files to download -->
+<!-- materials -- zip files to download 
 <h2 id="materials">Materials</h2>
 <div class="row">
   <div class="col-md-4">
@@ -331,7 +323,7 @@ subsequently are prevented from taking your seat.
     <p>A <a href="checklist.html">checklist</a> to evaluate and stimulate thoughts
       about the reproducility of your project.</p>
   </div>
-</div>
+</div> -->
 
 <!--
   SETUP
