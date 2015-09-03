@@ -1,8 +1,8 @@
 ## Reproducible Science Workshop
 
-To be held at iDigBio (105 building, teaching room (3rd floor))
+To be held at the Duke Marine Lab.
 
-June 1-2, 2015
+September 24-25, 2015
 
 If you are interested in attending, check out the
-[website](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/).
+[website](http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/).
